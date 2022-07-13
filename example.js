@@ -1,4 +1,4 @@
-let day = 'sunday';
+let day = 'wednesday';
 
 switch(day){
     case 'monday':
@@ -14,7 +14,15 @@ switch(day){
             console.log('2 days to saturday');
             break;
     case 'friday':
-            console.log('1 days to saturday');
-                        
+            console.log('1 day to saturday');                        
+            break;
+    case 'saturday':
+            console.log('Hooray!! Today is saturday');
+                break;
+    case 'sunday':
+            console.log('6 days to saturday');                            
+            break;        
+    default:
+            console.log('Invalid input');
             break;
 }
