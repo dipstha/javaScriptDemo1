@@ -14,7 +14,7 @@ switch(day){
             console.log('2 days to saturday');
             break;
     case 'friday':
-            console.log('1 days to saturday');
+            console.log('1 day to saturday');
                         
             break;
 }
